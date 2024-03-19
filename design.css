@@ -3,30 +3,33 @@ box-sizing: border-box;
 margin: 0px;
 padding: 0px;
 }
+/* the start of the cover thing */
+
 .texts {
-font-family: arial;
-font-size: 30px;
-color: white;
-font-weight: bold;
-color: rgb(118, 171, 174);
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    color: rgb(118, 171, 174);
 }
 .shadowing {
-box-shadow: inset 0px 0px 10px 10px rgba(34,40,49,0.7);
-background-image: url("https://as1.ftcdn.net/v2/jpg/02/83/51/10/1000_F_283511045_Zs9O4hXhe1K9bQb46xVQku8KPMTGtGsI.jpg");
-background-size: cover;
-display: flex;
-justify-content: center;
-height: 200px;
-width: 100%;
-}
-
-.moviec {
-    display: flexbox;
+    box-shadow: inset 0px 0px 10px 10px rgba(34,40,49,0.7);
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/83/51/10/1000_F_283511045_Zs9O4hXhe1K9bQb46xVQku8KPMTGtGsI.jpg");
+    background-size: cover;
+    display: flex;
     justify-content: center;
-    justify-items: center;
+    height: 200px;
+    width: 100%;
+}
+/* the end of the cover thing (index.html) */
+
+
+/* this is the start of the box thing   */
+.moviec {
+    margin: 0 auto;
     background-color: rgb(49, 54, 63);
-    width: 150px;
-    height: 250px;
+    width: 250px;
+    height: 350px;
     border-radius: 10px;
     box-shadow: 0 0 1px 2px rgba(238, 238, 238, 0.815);
 }
@@ -40,14 +43,15 @@ width: 100%;
     border-radius: 10px;
 }
 
-.moviec p {
- font-family: Arial, Helvetica, sans-serif;
- color: white;
- padding: 210px 0;
- font-weight: bold;
+.moviet {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 210px 0;
+    font-weight: bold;
+   }
+  /* end  of the box thing  */
 
 
-}
 body {
 background-color: rgb(34, 40, 49);
 }
