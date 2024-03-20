@@ -11,10 +11,10 @@ body {
 
 .texts {
     font-family: arial;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
-    color: rgb(118, 171, 174);
+    color: white;
 }
 .shadowing {
     box-shadow: inset 0px 0px 10px 10px rgba(34,40,49,0.7);
