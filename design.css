@@ -11,10 +11,10 @@ body {
 
 .texts {
     font-family: arial;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     font-weight: bold;
-    color: white;
+    
 }
 .shadowing {
     box-shadow: inset 0px 0px 10px 10px rgba(34,40,49,0.7);
@@ -32,8 +32,8 @@ body {
 #moviec {
     margin: 0 auto;
     background-color: rgb(49, 54, 63);
-    width: 250px;
-    height: 350px;
+    width: 180px;
+    height: 400px;
     border-radius: 10px;
     box-shadow: 0 0 1px 2px rgba(238, 238, 238, 0.815);
     
@@ -44,10 +44,36 @@ body {
     background-size: cover;
     padding: 50px 10px 10px 10px;
     height: 325px;
-    /* width: 225px; */
+    width: 180px;
     border-radius: 10px;
 }
 
+.wtb {
+    display: flex;
+    justify-content: center;
+    margin: 300px 0;
+    
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: maroon;
+    
+    border-radius: 5px;
+}
+
+.wtb:onclick {
+    display: flex;
+    justify-content: center;
+    margin: 300px 0;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: maroon;
+    background-color: white;
+}
 /* 
 .moviet {
     font-family: Arial, Helvetica, sans-serif;
@@ -58,8 +84,17 @@ body {
     */
   /* end  of the box thing  */
 
+.arr-c {
+    background-color: white;
+    height: 100px;
+}
 
+.arr-t {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
   
+
 /* .vframe {
     position: absolute;
     top: 0;
