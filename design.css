@@ -44,7 +44,7 @@ body {
     background-size: cover;
     padding: 50px 10px 10px 10px;
     height: 325px;
-    width: 225px;
+    /* width: 225px; */
     border-radius: 10px;
 }
 
@@ -58,11 +58,12 @@ body {
     */
   /* end  of the box thing  */
 
-.vframe {
+
+  
+/* .vframe {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-}
+} */
 
 
