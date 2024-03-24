@@ -102,3 +102,45 @@ body {
 } */
 
 
+.wmb a {
+    display: flex;
+    justify-content: center;
+    margin: 150x 0;
+    padding: 10px 0;
+    text-decoration: none !important;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: maroon;
+    border-radius: 10px;
+}
+
+.movie-title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0;
+    font-weight: bolder;
+    color: white;
+}
+
+.label-movie {
+    font-size: smaller;
+    color: white;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    margin: 0 10px;
+
+}
+
+.label-movie #age-thing{
+    background-color: gray;
+    border-radius: 3px;
+}
+
+.background-of-desc {
+    background-color: rgb(49, 54, 63);
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
